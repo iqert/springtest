@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>信息</title>
+</head>
+<body>
+
+<form action="" th:object="${lage}">
+    姓名：<input type="text" th:value="${lage.getName()}"/><br>
+    年龄：<input type="text" th:value="${lage.getAge()}"/><br>
+</form>
+
+</body>
+</html>
